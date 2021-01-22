@@ -3,7 +3,7 @@
 
 $body-bg: #e3d5ca;
 $body-color: #222;
-$primary: hotpink;
+$primary: #c3a58d;
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -26,4 +26,21 @@ $font-family-base: Arial;
 
 .hero-image {
   max-width: 250px;
+}
+
+.box1 {
+  background-color: #fff;
+  margin-top: -120px;
+  padding-top: 130px;
+}
+
+.btn {
+  background-color: #c3a58d;
+  color: #fff;
+  margin: 5px;
+  border: $primary;
+}
+
+btn:hover {
+  background-color: #78583f;
 }
