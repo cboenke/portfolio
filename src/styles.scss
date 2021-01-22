@@ -1,7 +1,7 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 
-$body-bg: #ddd;
+$body-bg: #e3d5ca;
 $body-color: #222;
 $primary: hotpink;
 $font-family-base: Arial;
@@ -22,4 +22,8 @@ $font-family-base: Arial;
   );
   color: #fff;
   padding: 0.5em;
+}
+
+.hero-image {
+  max-width: 250px;
 }
