@@ -6,26 +6,18 @@ $body-color: #222;
 $primary: #c3a58d;
 $font-family-base: Arial;
 
+html {
+  scroll-behavior: smooth;
+}
+
 // Include all Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
 
-.fancy {
-  display: inline-block;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
-  color: #fff;
-  padding: 0.5em;
-}
-
 .hero-image {
-  max-width: 250px;
+  width: 250px;
+  height: 250px;
 }
 
 .box1 {
@@ -35,7 +27,7 @@ $font-family-base: Arial;
 }
 
 .btn {
-  background-color: #c3a58d;
+  background-color: $primary;
   color: #fff;
   margin: 5px;
   border: $primary;
@@ -43,4 +35,48 @@ $font-family-base: Arial;
 
 btn:hover {
   background-color: #78583f;
+}
+
+.box2 {
+  background-color: #fff;
+  text-align: left;
+  margin: 20px;
+  padding-left: 5%;
+}
+
+.btn2 {
+  color: #000000;
+}
+
+.cv {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.cvtopics {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.date {
+  margin-bottom: -1px;
+}
+
+.education {
+  padding-bottom: 5%;
+}
+
+.box3 {
+  background-color: #fff;
+  margin: 20px;
+  padding: 5%;
+}
+
+.hobbies {
+  padding-top: 5%;
+}
+
+.box4 {
+  background-color: #fff;
+  margin: 20px;
 }
